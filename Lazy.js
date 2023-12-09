@@ -104,7 +104,7 @@
 				timg.css = "width:"+timg.w+";height:"+timg.h+";background:"+data.colors[Math.floor(Math.random()*data.colors.length)]+";";
 
 				timg.css += "display:"+timg.tdisp;
-				$(this).attr('data-disp',timg.disp).css({"display":"none"}).after('<div class="gi-darken" style="'+timg.css+'"><a href="//ganxiaozhe.com/p/gazeimg/" target="_blank"><div class="gilazy-loader gi-spin"></div></a></div>');
+				$(this).attr('data-disp',timg.disp).css({"display":"none"}).after('<div class="gi-darken" style="'+timg.css+'">/**<a href="//ganxiaozhe.com/p/gazeimg/" target="_blank">**/<div class="gilazy-loader gi-spin"></div></div>');
 			} else {
 				$(this).addClass('gi-darken');
 			}
